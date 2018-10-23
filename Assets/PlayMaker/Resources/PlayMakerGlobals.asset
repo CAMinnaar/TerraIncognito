@@ -1,0 +1,623 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: PlayMakerGlobals
+  m_EditorClassIdentifier: 
+  variables:
+    floatVariables:
+    - useVariable: 1
+      name: 
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: -10
+    - useVariable: 1
+      name: Badge_amp_move
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Badge_amp_move1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Badge_clothe_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    - useVariable: 1
+      name: Badge_clothe_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    - useVariable: 1
+      name: Badge_detect_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 15
+    - useVariable: 1
+      name: Badge_detect_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 15
+    - useVariable: 1
+      name: Badge_dog_speed_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Badge_dog_speed_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Badge_dog_stamina_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: -1
+    - useVariable: 1
+      name: Badge_dog_stamina_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: -1
+    - useVariable: 1
+      name: Char_rank_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Char_rank_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Char_xp_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 3000
+    - useVariable: 1
+      name: Char_xp_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Global_Exposure_burn_rate
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 3
+    - useVariable: 1
+      name: Money
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 10000
+    - useVariable: 1
+      name: Price Inv
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Rank_slider 0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Rank_slider 1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Set_detection_ice
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 15
+    - useVariable: 1
+      name: Set_food_money_minus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: -10
+    - useVariable: 1
+      name: Set_food_money_plus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 10
+    - useVariable: 1
+      name: Set_food_quantity_minus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: -5
+    - useVariable: 1
+      name: Set_food_quantity_plus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 5
+    - useVariable: 1
+      name: Set_food_weight_plus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0.5
+    - useVariable: 1
+      name: Set_fuel_money_minus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: -50
+    - useVariable: 1
+      name: Set_fuel_money_plus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 50
+    - useVariable: 1
+      name: Set_fuel_weight_plus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 5
+    - useVariable: 1
+      name: Set_ladder_money_minus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: -100
+    - useVariable: 1
+      name: Set_ladder_money_plus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 100
+    - useVariable: 1
+      name: Set_ladder_weight_plus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 15
+    - useVariable: 1
+      name: Set_tent_money_minus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: -250
+    - useVariable: 1
+      name: Set_tent_money_plus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 250
+    - useVariable: 1
+      name: Set_tent_weight_plus
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 25
+    - useVariable: 1
+      name: Threshhold
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    intVariables:
+    - useVariable: 1
+      name: Badge_fish_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 60
+    - useVariable: 1
+      name: Badge_fish_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 60
+    - useVariable: 1
+      name: Badge_ladder_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Badge_ladder_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Char_attempt_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Char_attempt_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Char_map_level
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Char_pole_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Char_pole_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Fishing_Max
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Fog Level Master
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 170000
+    - useVariable: 1
+      name: Game Time
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Igloo_max
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 10
+    - useVariable: 1
+      name: MAX_ICE
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 195
+    - useVariable: 1
+      name: Map Level
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Sailor 0 flag
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Sailor 1 flag
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Time_play_day
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Time_play_hrs
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Time_pole_day
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Time_pole_hrs
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Tut Number
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: Char_name_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: Robert Scott
+    - useVariable: 1
+      name: Char_name_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: Edgar Evans
+    vector2Variables: []
+    vector3Variables:
+    - useVariable: 1
+      name: Destination_pick
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: Cube_selected
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Cube_selected_reticule
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Dog_Current 0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Dog_Current 1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Fish_selected_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Fish_selected_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Tent_selected
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Tent_selected_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Tent_selected_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    objectVariables: []
+    materialVariables: []
+    textureVariables: []
+    arrayVariables:
+    - useVariable: 1
+      name: Badges_0
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.GameObject
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: Badges_1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.GameObject
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: Flag Line
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: Ladder Line
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.GameObject
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: Tent Line
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: Time_best_day
+      tooltip: 0
+      showInInspector: 0
+      networkSync: 0
+      type: 1
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 00000000000000000000000000000000000000000000000000000000
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: Time_best_hrs
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 1
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 00000000000000000000000000000000000000000000000000000000
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: Time_curr_day
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 1
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 00000000000000000000000000000000000000000000000000000000
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: Time_curr_hrs
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 1
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 00000000000000000000000000000000000000000000000000000000
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    enumVariables: []
+    categories:
+    - 
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - Move_Order
+  - Move Order
+  - Move Order Speed
+  - Camera reset
+  - Build
+  - Load tent OFF
+  - Load HQ OFF
+  - a_ski
+  - a_idle
+  - Scroll down
+  - Scroll up
+  - Button
+  - 'a_ladder '
+  - Flag redraw
+  - Tut Event
+  - Scroll Left
+  - Scroll Left Fast
+  - Scroll Right
+  - Scroll Right Fast
+  - Scroll Down
+  - Scroll Down Fast
+  - Scroll Up
+  - Scroll Up Fast
+  - Flag Move
+  - Flag update
+  - Tent Flag
+  - REVEAL
+  - Speed Update
+  - Prev
+  - Next Day
+  - Build Ladder
+  - restart
+  - Plant Flag
+  - Build Ladder Cont
+  - Build Ladder COnt
+  - a_dead
+  - Dog reset
+  - a_die
+  - Save Char info
+  - die
+  - Refresh
+  - Fish
+  - Igloo
+  - Save
+  - Close
+  - Stop clock
+  - REGEN
+  - Stop
+  - Stop Clock
+  - Start clock
+  - Reset
+  - Reset Badge
+  - Restart
