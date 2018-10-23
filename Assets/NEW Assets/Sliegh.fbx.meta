@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: db117bb489724e742ad2d82e49ef580b
+timeCreated: 1533632211
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bottle1
+    100002: bottle2
+    100004: Bottle3
+    100006: foodbox1
+    100008: foodbox2
+    100010: foodbox3
+    100012: foodbox4
+    100014: foodbox5
+    100016: foodbox6
+    100018: ladder
+    100020: rope
+    100022: ropesbottles
+    100024: //RootNode
+    100026: sliegh
+    100028: Sliegh_Begin:Sliegh_Begin:polySurface164
+    100030: Sliegh_Begin:Sliegh_Begin:polySurface178
+    100032: Sliegh_Begin:Sliegh_Begin:polySurface72
+    100034: storagecase
+    100036: tent
+    100038: wood1
+    100040: wood2
+    100042: wood3
+    100044: wood4
+    100046: wood5
+    100048: wood6
+    400000: bottle1
+    400002: bottle2
+    400004: Bottle3
+    400006: foodbox1
+    400008: foodbox2
+    400010: foodbox3
+    400012: foodbox4
+    400014: foodbox5
+    400016: foodbox6
+    400018: ladder
+    400020: rope
+    400022: ropesbottles
+    400024: //RootNode
+    400026: sliegh
+    400028: Sliegh_Begin:Sliegh_Begin:polySurface164
+    400030: Sliegh_Begin:Sliegh_Begin:polySurface178
+    400032: Sliegh_Begin:Sliegh_Begin:polySurface72
+    400034: storagecase
+    400036: tent
+    400038: wood1
+    400040: wood2
+    400042: wood3
+    400044: wood4
+    400046: wood5
+    400048: wood6
+    2100000: lambert1
+    2300000: bottle1
+    2300002: bottle2
+    2300004: Bottle3
+    2300006: foodbox1
+    2300008: foodbox2
+    2300010: foodbox3
+    2300012: foodbox4
+    2300014: foodbox5
+    2300016: foodbox6
+    2300018: ladder
+    2300020: rope
+    2300022: ropesbottles
+    2300024: sliegh
+    2300026: Sliegh_Begin:Sliegh_Begin:polySurface164
+    2300028: Sliegh_Begin:Sliegh_Begin:polySurface178
+    2300030: storagecase
+    2300032: tent
+    2300034: wood1
+    2300036: wood2
+    2300038: wood3
+    2300040: wood4
+    2300042: wood5
+    2300044: wood6
+    3300000: bottle1
+    3300002: bottle2
+    3300004: Bottle3
+    3300006: foodbox1
+    3300008: foodbox2
+    3300010: foodbox3
+    3300012: foodbox4
+    3300014: foodbox5
+    3300016: foodbox6
+    3300018: ladder
+    3300020: rope
+    3300022: ropesbottles
+    3300024: sliegh
+    3300026: Sliegh_Begin:Sliegh_Begin:polySurface164
+    3300028: Sliegh_Begin:Sliegh_Begin:polySurface178
+    3300030: storagecase
+    3300032: tent
+    3300034: wood1
+    3300036: wood2
+    3300038: wood3
+    3300040: wood4
+    3300042: wood5
+    3300044: wood6
+    4300000: Sliegh_Begin:Sliegh_Begin:polySurface164
+    4300002: Sliegh_Begin:Sliegh_Begin:polySurface178
+    4300004: foodbox1
+    4300006: wood1
+    4300008: tent
+    4300010: bottle1
+    4300012: ladder
+    4300014: storagecase
+    4300016: wood2
+    4300018: wood3
+    4300020: wood4
+    4300022: foodbox2
+    4300024: foodbox3
+    4300026: foodbox4
+    4300028: foodbox5
+    4300030: foodbox6
+    4300032: wood5
+    4300034: wood6
+    4300036: Bottle3
+    4300038: bottle2
+    4300040: rope
+    4300042: ropesbottles
+    4300044: sliegh
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
